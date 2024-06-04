@@ -9,13 +9,33 @@ html {
     box-sizing: border-box;
 }
 
-.tabs__container {
+.App {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabs_title {
+    font-size: 2rem;
+    margin-top: 24px;
+}
+
+.tabs_subtitle {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #7e97ab;
+}
+
+.tabs__content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
     padding: 0 32px;
+    margin-top: 24px
 }
 
 .tabs__img img {
@@ -28,28 +48,32 @@ html {
     width: 100%;
 }
 
-.tabs__info__menu ul {
+.tabs__info__menu {
     list-style: none;
     display: flex;
-    background-color: #dae2ec;
     justify-content: space-between;
+    margin-top: 16px;
 }
 
-.tabs__info__menu ul li {
+.tabs__info__menu li {
     background-color: #dae2ec;
     flex: 1;
     padding: 12px 0;
     cursor: pointer;
-    font-weight: bold;
+    letter-spacing: 2px;
 }
 
-.tabs__info__menu ul li.selected {
+.tabs__info__menu li.selected {
     background-color: #FFFFFF;
     border: 2px solid #3d85d8;
 }
 
-.tabs__info__menu ul li:first-child {
+.tabs__info__menu li:first-child {
     border-top-left-radius: 6px;
+}
+
+.tabs__info__menu li:last-child {
+    border-top-right-radius: 6px;
 }
 
 .tabs__info__description {
@@ -58,10 +82,44 @@ html {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
+.tabs__info__description b {
+    letter-spacing: 2px;
+}
 
+.tabs__info__description p {
+    margin-top: 16px;
+    color: #7e97ab;
+    line-height: 1.4;
+    text-align: left;
+    font-weight: 500;
+}
 
+@media (min-width: 767px) {
+    .tabs_subtitle {
+        margin-bottom: 48px;
+    }
+
+    .tabs__content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .tabs__img {
+        width: 48%;
+
+    }
+
+    .tabs__info {
+        width: 48%;
+    }
+}
 
 
 
