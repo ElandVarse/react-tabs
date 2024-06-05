@@ -17,13 +17,13 @@ function App() {
     {
       "id": 2,
       "title": "Vision",
-      "content": "Lorem Ipsum 2",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris tellus, blandit pretium malesuada sed, molestie sit amet est. Nullam egestas rhoncus velit, vitae porttitor erat scelerisque et. Aliquam erat volutpat. Duis imperdiet mi at nibh fringilla, ac efficitur lacus facilisis. Donec id turpis quis massa tempor fermentum ut at mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vestibulum feugiat consectetur.",
       "image": "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }, 
     {
       "id": 3,
       "title": "Goals",
-      "content": "Lorem Ipsum 3",
+      "content": "Nam sit amet est id odio tristique efficitur. Quisque orci lacus, ultrices et mi ac, consectetur aliquam neque. Nulla sit amet neque lectus. Nunc ac lorem elementum, porttitor massa at, tempor ex. Integer molestie leo et congue tincidunt. Sed elementum ligula libero, quis convallis turpis venenatis et. Maecenas molestie pharetra felis eu eleifend.",
       "image": "https://images.unsplash.com/photo-1511884642898-4c92249e20b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ];

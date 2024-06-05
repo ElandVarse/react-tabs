@@ -113,11 +113,21 @@ html {
 
     .tabs__img {
         width: 48%;
-
     }
 
     .tabs__info {
         width: 48%;
+    }
+
+    .tabs__info__menu {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 479px) {
+    .tabs__info__description p {
+        max-height: 150px;
+        overflow: auto;
     }
 }
 
